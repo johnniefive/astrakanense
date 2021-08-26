@@ -1,0 +1,195 @@
+[21-Jun-2021 17:08:03 UTC] PHP Warning:  file_get_contents(/Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/build/mix-manifest.json): failed to open stream: No such file or directory in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/app/AssetResolver.php on line 49
+[21-Jun-2021 17:08:03 UTC] PHP Stack trace:
+[21-Jun-2021 17:08:03 UTC] PHP   1. {main}() /Users/robert/Local Sites/astrakanense/app/public/index.php:0
+[21-Jun-2021 17:08:03 UTC] PHP   2. require() /Users/robert/Local Sites/astrakanense/app/public/index.php:17
+[21-Jun-2021 17:08:03 UTC] PHP   3. require_once() /Users/robert/Local Sites/astrakanense/app/public/wp-blog-header.php:19
+[21-Jun-2021 17:08:03 UTC] PHP   4. include() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template-loader.php:106
+[21-Jun-2021 17:08:03 UTC] PHP   5. get_header() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/index.php:3
+[21-Jun-2021 17:08:03 UTC] PHP   6. locate_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php:48
+[21-Jun-2021 17:08:03 UTC] PHP   7. load_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:676
+[21-Jun-2021 17:08:03 UTC] PHP   8. require_once() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:730
+[21-Jun-2021 17:08:03 UTC] PHP   9. get_template_part() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/header.php:1
+[21-Jun-2021 17:08:03 UTC] PHP  10. locate_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php:204
+[21-Jun-2021 17:08:03 UTC] PHP  11. load_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:676
+[21-Jun-2021 17:08:03 UTC] PHP  12. require() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:732
+[21-Jun-2021 17:08:03 UTC] PHP  13. wp_head() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/partials/document-open.php:10
+[21-Jun-2021 17:08:03 UTC] PHP  14. do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php:3009
+[21-Jun-2021 17:08:03 UTC] PHP  15. WP_Hook->do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/plugin.php:484
+[21-Jun-2021 17:08:03 UTC] PHP  16. WP_Hook->apply_filters() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:316
+[21-Jun-2021 17:08:03 UTC] PHP  17. wp_enqueue_scripts() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:292
+[21-Jun-2021 17:08:03 UTC] PHP  18. do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/script-loader.php:2027
+[21-Jun-2021 17:08:03 UTC] PHP  19. WP_Hook->do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/plugin.php:484
+[21-Jun-2021 17:08:03 UTC] PHP  20. WP_Hook->apply_filters() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:316
+[21-Jun-2021 17:08:03 UTC] PHP  21. {closure:/Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/includes/scripts-and-styles.php:5-16}() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:292
+[21-Jun-2021 17:08:03 UTC] PHP  22. WpTailwindCssThemeBoilerplate\AssetResolver::resolve() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/includes/scripts-and-styles.php:8
+[21-Jun-2021 17:08:03 UTC] PHP  23. WpTailwindCssThemeBoilerplate\AssetResolver::get_manifest() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/app/AssetResolver.php:29
+[21-Jun-2021 17:08:03 UTC] PHP  24. file_get_contents() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/app/AssetResolver.php:49
+[21-Jun-2021 17:08:03 UTC] PHP Warning:  file_get_contents(/Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/build/mix-manifest.json): failed to open stream: No such file or directory in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/app/AssetResolver.php on line 49
+[21-Jun-2021 17:08:03 UTC] PHP Stack trace:
+[21-Jun-2021 17:08:03 UTC] PHP   1. {main}() /Users/robert/Local Sites/astrakanense/app/public/index.php:0
+[21-Jun-2021 17:08:03 UTC] PHP   2. require() /Users/robert/Local Sites/astrakanense/app/public/index.php:17
+[21-Jun-2021 17:08:03 UTC] PHP   3. require_once() /Users/robert/Local Sites/astrakanense/app/public/wp-blog-header.php:19
+[21-Jun-2021 17:08:03 UTC] PHP   4. include() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template-loader.php:106
+[21-Jun-2021 17:08:03 UTC] PHP   5. get_header() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/index.php:3
+[21-Jun-2021 17:08:03 UTC] PHP   6. locate_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php:48
+[21-Jun-2021 17:08:03 UTC] PHP   7. load_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:676
+[21-Jun-2021 17:08:03 UTC] PHP   8. require_once() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:730
+[21-Jun-2021 17:08:03 UTC] PHP   9. get_template_part() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/header.php:1
+[21-Jun-2021 17:08:03 UTC] PHP  10. locate_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php:204
+[21-Jun-2021 17:08:03 UTC] PHP  11. load_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:676
+[21-Jun-2021 17:08:03 UTC] PHP  12. require() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:732
+[21-Jun-2021 17:08:03 UTC] PHP  13. wp_head() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/partials/document-open.php:10
+[21-Jun-2021 17:08:03 UTC] PHP  14. do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php:3009
+[21-Jun-2021 17:08:03 UTC] PHP  15. WP_Hook->do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/plugin.php:484
+[21-Jun-2021 17:08:03 UTC] PHP  16. WP_Hook->apply_filters() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:316
+[21-Jun-2021 17:08:03 UTC] PHP  17. wp_enqueue_scripts() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:292
+[21-Jun-2021 17:08:03 UTC] PHP  18. do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/script-loader.php:2027
+[21-Jun-2021 17:08:03 UTC] PHP  19. WP_Hook->do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/plugin.php:484
+[21-Jun-2021 17:08:03 UTC] PHP  20. WP_Hook->apply_filters() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:316
+[21-Jun-2021 17:08:03 UTC] PHP  21. {closure:/Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/includes/scripts-and-styles.php:5-16}() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:292
+[21-Jun-2021 17:08:03 UTC] PHP  22. WpTailwindCssThemeBoilerplate\AssetResolver::resolve() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/includes/scripts-and-styles.php:9
+[21-Jun-2021 17:08:03 UTC] PHP  23. WpTailwindCssThemeBoilerplate\AssetResolver::get_manifest() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/app/AssetResolver.php:29
+[21-Jun-2021 17:08:03 UTC] PHP  24. file_get_contents() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/app/AssetResolver.php:49
+[21-Jun-2021 17:09:15 UTC] PHP Warning:  file_get_contents(/Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/build/mix-manifest.json): failed to open stream: No such file or directory in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/app/AssetResolver.php on line 49
+[21-Jun-2021 17:09:15 UTC] PHP Stack trace:
+[21-Jun-2021 17:09:15 UTC] PHP   1. {main}() /Users/robert/Local Sites/astrakanense/app/public/index.php:0
+[21-Jun-2021 17:09:15 UTC] PHP   2. require() /Users/robert/Local Sites/astrakanense/app/public/index.php:17
+[21-Jun-2021 17:09:15 UTC] PHP   3. require_once() /Users/robert/Local Sites/astrakanense/app/public/wp-blog-header.php:19
+[21-Jun-2021 17:09:15 UTC] PHP   4. include() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template-loader.php:106
+[21-Jun-2021 17:09:15 UTC] PHP   5. get_header() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/index.php:3
+[21-Jun-2021 17:09:15 UTC] PHP   6. locate_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php:48
+[21-Jun-2021 17:09:15 UTC] PHP   7. load_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:676
+[21-Jun-2021 17:09:15 UTC] PHP   8. require_once() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:730
+[21-Jun-2021 17:09:15 UTC] PHP   9. get_template_part() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/header.php:1
+[21-Jun-2021 17:09:15 UTC] PHP  10. locate_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php:204
+[21-Jun-2021 17:09:15 UTC] PHP  11. load_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:676
+[21-Jun-2021 17:09:15 UTC] PHP  12. require() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:732
+[21-Jun-2021 17:09:15 UTC] PHP  13. wp_head() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/partials/document-open.php:10
+[21-Jun-2021 17:09:15 UTC] PHP  14. do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php:3009
+[21-Jun-2021 17:09:15 UTC] PHP  15. WP_Hook->do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/plugin.php:484
+[21-Jun-2021 17:09:15 UTC] PHP  16. WP_Hook->apply_filters() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:316
+[21-Jun-2021 17:09:15 UTC] PHP  17. wp_enqueue_scripts() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:292
+[21-Jun-2021 17:09:15 UTC] PHP  18. do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/script-loader.php:2027
+[21-Jun-2021 17:09:15 UTC] PHP  19. WP_Hook->do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/plugin.php:484
+[21-Jun-2021 17:09:15 UTC] PHP  20. WP_Hook->apply_filters() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:316
+[21-Jun-2021 17:09:15 UTC] PHP  21. {closure:/Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/includes/scripts-and-styles.php:5-16}() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:292
+[21-Jun-2021 17:09:15 UTC] PHP  22. WpTailwindCssThemeBoilerplate\AssetResolver::resolve() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/includes/scripts-and-styles.php:8
+[21-Jun-2021 17:09:15 UTC] PHP  23. WpTailwindCssThemeBoilerplate\AssetResolver::get_manifest() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/app/AssetResolver.php:29
+[21-Jun-2021 17:09:15 UTC] PHP  24. file_get_contents() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/app/AssetResolver.php:49
+[21-Jun-2021 17:09:15 UTC] PHP Warning:  file_get_contents(/Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/build/mix-manifest.json): failed to open stream: No such file or directory in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/app/AssetResolver.php on line 49
+[21-Jun-2021 17:09:15 UTC] PHP Stack trace:
+[21-Jun-2021 17:09:15 UTC] PHP   1. {main}() /Users/robert/Local Sites/astrakanense/app/public/index.php:0
+[21-Jun-2021 17:09:15 UTC] PHP   2. require() /Users/robert/Local Sites/astrakanense/app/public/index.php:17
+[21-Jun-2021 17:09:15 UTC] PHP   3. require_once() /Users/robert/Local Sites/astrakanense/app/public/wp-blog-header.php:19
+[21-Jun-2021 17:09:15 UTC] PHP   4. include() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template-loader.php:106
+[21-Jun-2021 17:09:15 UTC] PHP   5. get_header() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/index.php:3
+[21-Jun-2021 17:09:15 UTC] PHP   6. locate_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php:48
+[21-Jun-2021 17:09:15 UTC] PHP   7. load_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:676
+[21-Jun-2021 17:09:15 UTC] PHP   8. require_once() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:730
+[21-Jun-2021 17:09:15 UTC] PHP   9. get_template_part() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/header.php:1
+[21-Jun-2021 17:09:15 UTC] PHP  10. locate_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php:204
+[21-Jun-2021 17:09:15 UTC] PHP  11. load_template() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:676
+[21-Jun-2021 17:09:15 UTC] PHP  12. require() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php:732
+[21-Jun-2021 17:09:15 UTC] PHP  13. wp_head() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/partials/document-open.php:10
+[21-Jun-2021 17:09:15 UTC] PHP  14. do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php:3009
+[21-Jun-2021 17:09:15 UTC] PHP  15. WP_Hook->do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/plugin.php:484
+[21-Jun-2021 17:09:15 UTC] PHP  16. WP_Hook->apply_filters() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:316
+[21-Jun-2021 17:09:15 UTC] PHP  17. wp_enqueue_scripts() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:292
+[21-Jun-2021 17:09:15 UTC] PHP  18. do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/script-loader.php:2027
+[21-Jun-2021 17:09:15 UTC] PHP  19. WP_Hook->do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/plugin.php:484
+[21-Jun-2021 17:09:15 UTC] PHP  20. WP_Hook->apply_filters() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:316
+[21-Jun-2021 17:09:15 UTC] PHP  21. {closure:/Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/includes/scripts-and-styles.php:5-16}() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:292
+[21-Jun-2021 17:09:15 UTC] PHP  22. WpTailwindCssThemeBoilerplate\AssetResolver::resolve() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/includes/scripts-and-styles.php:9
+[21-Jun-2021 17:09:15 UTC] PHP  23. WpTailwindCssThemeBoilerplate\AssetResolver::get_manifest() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/app/AssetResolver.php:29
+[21-Jun-2021 17:09:15 UTC] PHP  24. file_get_contents() /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/app/AssetResolver.php:49
+[25-Jun-2021 10:49:48 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/front-page.php on line 5
+[25-Jun-2021 10:49:48 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/front-page.php on line 5
+[26-Jun-2021 08:23:27 UTC] PHP Warning:  Illegal string offset 'url' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/front-page.php on line 15
+[26-Jun-2021 08:23:27 UTC] PHP Stack trace:
+[26-Jun-2021 08:23:27 UTC] PHP   1. {main}() /Users/robert/Local Sites/astrakanense/app/public/index.php:0
+[26-Jun-2021 08:23:27 UTC] PHP   2. require() /Users/robert/Local Sites/astrakanense/app/public/index.php:17
+[26-Jun-2021 08:23:27 UTC] PHP   3. require_once() /Users/robert/Local Sites/astrakanense/app/public/wp-blog-header.php:19
+[26-Jun-2021 08:23:27 UTC] PHP   4. include() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template-loader.php:106
+[26-Jun-2021 08:23:27 UTC] PHP Warning:  Illegal string offset 'url' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/front-page.php on line 15
+[26-Jun-2021 08:23:27 UTC] PHP Stack trace:
+[26-Jun-2021 08:23:27 UTC] PHP   1. {main}() /Users/robert/Local Sites/astrakanense/app/public/index.php:0
+[26-Jun-2021 08:23:27 UTC] PHP   2. require() /Users/robert/Local Sites/astrakanense/app/public/index.php:17
+[26-Jun-2021 08:23:27 UTC] PHP   3. require_once() /Users/robert/Local Sites/astrakanense/app/public/wp-blog-header.php:19
+[26-Jun-2021 08:23:27 UTC] PHP   4. include() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template-loader.php:106
+[26-Jun-2021 08:23:27 UTC] PHP Warning:  Illegal string offset 'url' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/front-page.php on line 15
+[26-Jun-2021 08:23:27 UTC] PHP Stack trace:
+[26-Jun-2021 08:23:27 UTC] PHP   1. {main}() /Users/robert/Local Sites/astrakanense/app/public/index.php:0
+[26-Jun-2021 08:23:27 UTC] PHP   2. require() /Users/robert/Local Sites/astrakanense/app/public/index.php:17
+[26-Jun-2021 08:23:27 UTC] PHP   3. require_once() /Users/robert/Local Sites/astrakanense/app/public/wp-blog-header.php:19
+[26-Jun-2021 08:23:27 UTC] PHP   4. include() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template-loader.php:106
+[26-Jun-2021 08:23:27 UTC] PHP Warning:  Illegal string offset 'url' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/front-page.php on line 15
+[26-Jun-2021 08:23:27 UTC] PHP Stack trace:
+[26-Jun-2021 08:23:27 UTC] PHP   1. {main}() /Users/robert/Local Sites/astrakanense/app/public/index.php:0
+[26-Jun-2021 08:23:27 UTC] PHP   2. require() /Users/robert/Local Sites/astrakanense/app/public/index.php:17
+[26-Jun-2021 08:23:27 UTC] PHP   3. require_once() /Users/robert/Local Sites/astrakanense/app/public/wp-blog-header.php:19
+[26-Jun-2021 08:23:27 UTC] PHP   4. include() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template-loader.php:106
+[26-Jun-2021 08:23:27 UTC] PHP Warning:  Illegal string offset 'url' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/front-page.php on line 15
+[26-Jun-2021 08:23:27 UTC] PHP Stack trace:
+[26-Jun-2021 08:23:27 UTC] PHP   1. {main}() /Users/robert/Local Sites/astrakanense/app/public/index.php:0
+[26-Jun-2021 08:23:27 UTC] PHP   2. require() /Users/robert/Local Sites/astrakanense/app/public/index.php:17
+[26-Jun-2021 08:23:27 UTC] PHP   3. require_once() /Users/robert/Local Sites/astrakanense/app/public/wp-blog-header.php:19
+[26-Jun-2021 08:23:27 UTC] PHP   4. include() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template-loader.php:106
+[10-Jul-2021 12:43:26 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/partials/onepage-staff.php on line 12
+[11-Jul-2021 08:03:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/one-page.php on line 42
+[11-Jul-2021 08:03:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/one-page.php on line 42
+[11-Jul-2021 08:08:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/one-page.php on line 46
+[11-Jul-2021 08:08:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/one-page.php on line 46
+[11-Jul-2021 11:56:04 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/functions.php on line 27
+[11-Jul-2021 11:56:04 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/functions.php on line 27
+[11-Jul-2021 11:56:04 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/functions.php on line 27
+[11-Jul-2021 11:56:27 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/functions.php on line 27
+[11-Jul-2021 11:56:27 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/functions.php on line 27
+[11-Jul-2021 11:56:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/functions.php on line 29
+[11-Jul-2021 11:56:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/functions.php on line 29
+[11-Jul-2021 12:47:47 UTC] PHP Parse error:  syntax error, unexpected ':' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/footer.php on line 16
+[11-Jul-2021 12:48:15 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/footer.php on line 26
+[11-Jul-2021 12:48:33 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/footer.php on line 26
+[18-Jul-2021 06:12:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_slug() in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/partials/onepage-staff.php:12
+Stack trace:
+#0 /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php(732): require()
+#1 /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php(676): load_template('/Users/robert/L...', false, Array)
+#2 /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/one-page.php(108): get_template_part('templates/parti...')
+#4 /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template-loader.php(106): include('/Users/robert/L...')
+#5 /Users/robert/Local Sites/astrakanense/app/public/wp-blog-header.php(19): require_once('/Users/robert/L...')
+#6 /Users/robert/Local Sites/astrakanense/app/public/index.php(17): require('/ in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/partials/onepage-staff.php on line 12
+[18-Jul-2021 06:12:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_slug() in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/partials/onepage-staff.php:12
+Stack trace:
+#0 /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php(732): require()
+#1 /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template.php(676): load_template('/Users/robert/L...', false, Array)
+#2 /Users/robert/Local Sites/astrakanense/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/one-page.php(108): get_template_part('templates/parti...')
+#4 /Users/robert/Local Sites/astrakanense/app/public/wp-includes/template-loader.php(106): include('/Users/robert/L...')
+#5 /Users/robert/Local Sites/astrakanense/app/public/wp-blog-header.php(19): require_once('/Users/robert/L...')
+#6 /Users/robert/Local Sites/astrakanense/app/public/index.php(17): require('/User in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/partials/onepage-staff.php on line 12
+[18-Jul-2021 06:28:08 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/partials/onepage-staff.php on line 43
+[18-Jul-2021 09:40:58 UTC] PHP Parse error:  syntax error, unexpected ':' in /Users/robert/Local Sites/astrakanense/app/public/wp-content/themes/astrakanen.se/templates/partials/onepage-info.php on line 4
+[27-Jul-2021 00:34:11 UTC] PHP Warning:  Ett oväntat fel inträffade. Något kan vara fel med WordPress.org eller hur denna server är konfigurerad. Om problemet fortsätter kan du prova att fråga i <a href="https://sv.wordpress.org/support/forums/">supportforumet</a>. (WordPress kunde inte upprätta en säker anslutning till WordPress.org. Kontakta din serveradministratör.) in /Users/robert/Local Sites/astrakanense/app/public/wp-includes/update.php on line 175
+[27-Jul-2021 00:34:11 UTC] PHP Stack trace:
+[27-Jul-2021 00:34:11 UTC] PHP   1. {main}() /Users/robert/Local Sites/astrakanense/app/public/wp-cron.php:0
+[27-Jul-2021 00:34:11 UTC] PHP   2. do_action_ref_array() /Users/robert/Local Sites/astrakanense/app/public/wp-cron.php:138
+[27-Jul-2021 00:34:11 UTC] PHP   3. WP_Hook->do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/plugin.php:518
+[27-Jul-2021 00:34:11 UTC] PHP   4. WP_Hook->apply_filters() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:327
+[27-Jul-2021 00:34:11 UTC] PHP   5. wp_version_check() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:303
+[27-Jul-2021 00:34:11 UTC] PHP   6. trigger_error() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/update.php:175
+[27-Jul-2021 00:34:11 UTC] PHP Warning:  Ett oväntat fel inträffade. Något kan vara fel med WordPress.org eller hur denna server är konfigurerad. Om problemet fortsätter kan du prova att fråga i <a href="https://sv.wordpress.org/support/forums/">supportforumet</a>. (WordPress kunde inte upprätta en säker anslutning till WordPress.org. Kontakta din serveradministratör.) in /Users/robert/Local Sites/astrakanense/app/public/wp-includes/update.php on line 413
+[27-Jul-2021 00:34:11 UTC] PHP Stack trace:
+[27-Jul-2021 00:34:11 UTC] PHP   1. {main}() /Users/robert/Local Sites/astrakanense/app/public/wp-cron.php:0
+[27-Jul-2021 00:34:11 UTC] PHP   2. do_action_ref_array() /Users/robert/Local Sites/astrakanense/app/public/wp-cron.php:138
+[27-Jul-2021 00:34:11 UTC] PHP   3. WP_Hook->do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/plugin.php:518
+[27-Jul-2021 00:34:11 UTC] PHP   4. WP_Hook->apply_filters() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:327
+[27-Jul-2021 00:34:11 UTC] PHP   5. wp_update_plugins() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:303
+[27-Jul-2021 00:34:11 UTC] PHP   6. trigger_error() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/update.php:413
+[27-Jul-2021 00:34:11 UTC] PHP Warning:  Ett oväntat fel inträffade. Något kan vara fel med WordPress.org eller hur denna server är konfigurerad. Om problemet fortsätter kan du prova att fråga i <a href="https://sv.wordpress.org/support/forums/">supportforumet</a>. (WordPress kunde inte upprätta en säker anslutning till WordPress.org. Kontakta din serveradministratör.) in /Users/robert/Local Sites/astrakanense/app/public/wp-includes/update.php on line 693
+[27-Jul-2021 00:34:11 UTC] PHP Stack trace:
+[27-Jul-2021 00:34:11 UTC] PHP   1. {main}() /Users/robert/Local Sites/astrakanense/app/public/wp-cron.php:0
+[27-Jul-2021 00:34:11 UTC] PHP   2. do_action_ref_array() /Users/robert/Local Sites/astrakanense/app/public/wp-cron.php:138
+[27-Jul-2021 00:34:11 UTC] PHP   3. WP_Hook->do_action() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/plugin.php:518
+[27-Jul-2021 00:34:11 UTC] PHP   4. WP_Hook->apply_filters() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:327
+[27-Jul-2021 00:34:11 UTC] PHP   5. wp_update_themes() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/class-wp-hook.php:303
+[27-Jul-2021 00:34:11 UTC] PHP   6. trigger_error() /Users/robert/Local Sites/astrakanense/app/public/wp-includes/update.php:693
